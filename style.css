@@ -1,0 +1,188 @@
+/* Custom styling for the navbar */
+  .navbar {
+    background-color: #333;
+  }
+  .navbar-fixed {
+    background-color: #333;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Custom styling for the home section */
+  .home-section {
+    padding: 100px 0;
+    background: url('header-bg.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+    color: #ffffff; /* Warna teks putih agar kontras dengan latar belakang */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Menambah margin bawah agar terlihat lebih rapi */
+  }  
+  .home-section .btn-secondary{
+    background-color: rgb(255,228,196);
+    border-color: rgb(255,228,196);
+    color: #000;
+  }
+  .products-section .btn-secondary{
+    background-color: rgb(255, 228, 196);
+    border-color: rgb(255,228,196);
+    color: #000;
+  }
+  /* Custom styling for the products section */
+  .products-section {
+    padding: 100px 0 0 0;
+  }
+  /* Custom styling for rectangular text box container */
+  .text-box-container {
+    height: 100%;
+    padding: 20px; /* Adjust the padding as needed */
+    background: url('bg-2.png') center/cover no-repeat;
+    color: bisque; /* Adjust the text color as needed */
+  }
+
+  .text-box-container p {
+    margin: 0;
+  }
+
+  /* Custom styling for square image container */
+  .image-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .square-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+  .card:hover img {
+    opacity: 0.7;
+  }
+  
+  /* Custom styling for the about us section */
+  .about-section {
+      padding: 100px 0 0 0;
+  }
+
+  /* Center content vertically */
+  .vertical-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%; /* Set tinggi menjadi 100% */
+  }
+  .about-section .row {
+    margin-bottom: 20px; /* Add margin-bottom to create space between rows */
+  }
+  .about-section img{
+    height:400px;
+  }
+  /* Custom styling for attractive numbers */
+  .attractive-number {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #ff5733; /* Change the color to your preference */
+    font-family: 'Arial', sans-serif; /* Use an appropriate font-family */
+  }
+
+  /* Custom styling for the testimoni section */
+  .testimoni-section {
+    padding: 100px 0 50px 0;
+    background-color: #f8f9fa;
+  }
+
+  /* Adjust the styling for the testimonial slider if necessary */
+  #testimoniSlider {
+    width: 100%;
+  }
+
+  /* Custom styling for testimonial images */
+  .carousel-item img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 200px; /* Set the maximum height of the images */
+    margin: auto; /* Center the images horizontally */
+    display: block; /* Remove any default spacing and make the image a block element */
+  }
+
+/* Custom styling for the contact section */
+.contact-section {
+  padding: 100px 0;
+  background-color: rgb(76, 76, 76); /* Light gray background */
+}
+
+.contact-section h2 {
+  color: bisque; /* Dark text color */
+}
+
+.contact-section p {
+  font-size: 18px;
+  color: beige; /* Slightly darker text color */
+}
+
+.contact-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-section li {
+  margin-bottom: 10px;
+  color: beige;
+}
+.contact-section ul li a{
+  color: bisque;
+}
+
+/* Custom styling for social media icons */
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #ff5733; /* Change the color to your preference */
+}
+
+/* Custom styling for the footer section */
+.footer-section {
+  padding: 50px 0;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+.footer-section p {
+  font-size: 16px;
+}
+
+/* Add some style for the footer links if needed */
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+
+  
